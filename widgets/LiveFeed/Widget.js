@@ -167,7 +167,7 @@ define([
             anchor: "center",
             heading: 180,
             resource: {
-              href: "https://demo09.geodata.no/geotek/symbol/" + name + ".json"
+              href: "widgets/LiveFeed/symbols/" + name + ".json"
             }
           }
         ]

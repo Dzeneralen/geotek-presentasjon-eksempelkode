@@ -13,6 +13,8 @@ define([
     // name: 'LiveFeed',
     // add additional properties here
 
+    streamLayer: null,
+
     //methods to communication with app container:
     postCreate: function() {
       this.inherited(arguments);
@@ -25,6 +27,8 @@ define([
 
       // opprett laget ved hjelp av metoden under
       var streamLayer = this.getStreamLayerLiveFeed();
+      // lagre referansen til senere bruk
+      this.streamLayer = streamLayer;
 
       // legg laget til kartet
       this.sceneView.map.add(streamLayer);
@@ -170,15 +174,17 @@ define([
       };
 
       return pointSymbol;
+    },
+
+    onOpen: function() {
+      console.log("LiveFeed::onOpen");
+      this.streamLayer.visible = true;
+    },
+
+    onClose: function() {
+      console.log("LiveFeed::onClose");
+      this.streamLayer.visible = false;
     }
-
-    // onOpen: function(){
-    //   console.log('LiveFeed::onOpen');
-    // },
-
-    // onClose: function(){
-    //   console.log('LiveFeed::onClose');
-    // },
 
     // onMinimize: function(){
     //   console.log('LiveFeed::onMinimize');

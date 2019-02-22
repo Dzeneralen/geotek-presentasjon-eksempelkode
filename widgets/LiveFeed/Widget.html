@@ -1,9 +1,11 @@
 <div>
-  <h3>${nls.widgetTitle}</h3>
+  <h3>${nls.descriptionTitle}</h3>
   <p>${nls.description}</p>
 
   <div>
-    <h5>${nls.serviceStatusTitle}</h5>
-    <p>Tjenesten kjører som normalt</p>
+    <h3>${nls.serviceStatusTitle}</h3>
+    <p data-dojo-attach-point="statusTextNode">
+      Laster tjenesten, vennligst vent...
+    </p>
   </div>
 </div>

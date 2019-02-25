@@ -1,0 +1,27 @@
+{
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/SidebarTheme/panels/SimpleBorderPanel/Panel"
+    },
+    "widgets": [
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "visible": true,
+        "position": {
+          "top": 5,
+          "left": 7
+        },
+        "version": "2.11"
+      }
+    ]
+  },
+
+  "map": {
+    "position": {
+      "left": 100,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  }
+}

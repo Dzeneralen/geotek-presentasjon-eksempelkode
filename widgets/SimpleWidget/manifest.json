@@ -8,7 +8,7 @@
     "hasLocale": false,
     "hasStyle": false,
     "hasConfig": false,
-    "hasUIFile": false,
+    "hasUIFile": true,
     "hasSettingPage": false,
     "hasSettingUIFile": false,
     "hasSettingLocale": false,

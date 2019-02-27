@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   "use strict";
   grunt.loadNpmTasks("grunt-sync");
   grunt.loadNpmTasks("grunt-contrib-watch");
@@ -68,6 +68,7 @@ module.exports = function(grunt) {
           "themes/**/**.html",
           "themes/**/**.json",
           "themes/**/**.css",
+          "themes/**/**.png",
           "themes/**/images/**",
           "themes/**/nls/**"
         ],

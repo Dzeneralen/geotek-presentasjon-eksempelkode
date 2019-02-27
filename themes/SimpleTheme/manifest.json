@@ -23,8 +23,5 @@
     }
   ],
   "version": "2.11",
-  "wabVersion": "2.11",
-  "properties": {
-    "hasLocale": false
-  }
+  "wabVersion": "2.11"
 }

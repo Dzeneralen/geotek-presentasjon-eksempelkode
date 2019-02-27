@@ -1,0 +1,14 @@
+{
+  "name": "SidebarController",
+  "3D": true,
+  "platform": "HTML3D",
+  "version": "0.0.1",
+  "wabVersion": "2.11",
+  "properties": {
+    "hasConfig": false,
+    "inPanel": false,
+    "isController": true,
+    "isThemeWidget": true,
+    "hasLocale": false
+  }
+}

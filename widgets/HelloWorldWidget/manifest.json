@@ -1,0 +1,17 @@
+{
+  "name": "HelloWorldWidget",
+  "3D": true,
+  "platform": "HTML3D",
+  "version": "0.0.1",
+  "wabVersion": "2.11",
+  "properties": {
+    "hasLocale": false,
+    "hasStyle": false,
+    "hasConfig": false,
+    "hasUIFile": false,
+    "hasSettingPage": false,
+    "hasSettingUIFile": false,
+    "hasSettingLocale": false,
+    "hasSettingStyle": false
+  }
+}

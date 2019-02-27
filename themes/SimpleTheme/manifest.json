@@ -1,0 +1,30 @@
+{
+  "name": "SimpleTheme",
+  "label": "Simple Theme",
+  "platform": "HTML3D",
+  "3D": true,
+  "panels": [
+    {
+      "name": "SimpleBorderPanel",
+      "description": "This is a panel with a border"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is default style",
+      "styleColor": "red"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is the left layout"
+    }
+  ],
+  "version": "2.11",
+  "wabVersion": "2.11",
+  "properties": {
+    "hasLocale": false
+  }
+}

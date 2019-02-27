@@ -179,12 +179,12 @@ define([
     onOpen: function() {
       console.log("LiveFeed::onOpen");
       this.streamLayer.visible = true;
-    },
-
-    onClose: function() {
-      console.log("LiveFeed::onClose");
-      this.streamLayer.visible = false;
     }
+
+    // onClose: function() {
+    //   console.log("LiveFeed::onClose");
+    //   this.streamLayer.visible = false;
+    // }
 
     // onMinimize: function(){
     //   console.log('LiveFeed::onMinimize');

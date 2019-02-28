@@ -8,6 +8,10 @@
   height: 32px !important;
 }
 
+.jimu-widget-sidebar-controller {
+  overflow: hidden;
+}
+
 .jimu-widget-onscreen-icon.jimu-state-selected {
   opacity: 1;
 }

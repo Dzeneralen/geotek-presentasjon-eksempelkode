@@ -1,12 +1,13 @@
-module.exports = function (grunt) {
+module.exports = function(grunt) {
   "use strict";
   grunt.loadNpmTasks("grunt-sync");
   grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-babel");
-  var appDir = "C:/development/WebAppBuilderForArcGIS/server/apps/3";
-  var stemappDir = "C:/development/WebAppBuilderForArcGIS/client/stemapp3d";
+  var appDir = "C:/development/WebAppBuilderForArcGISGeoTek/server/apps/3";
+  var stemappDir =
+    "C:/development/WebAppBuilderForArcGISGeoTek/client/stemapp3d";
   grunt.initConfig({
     sync: {
       main: {
